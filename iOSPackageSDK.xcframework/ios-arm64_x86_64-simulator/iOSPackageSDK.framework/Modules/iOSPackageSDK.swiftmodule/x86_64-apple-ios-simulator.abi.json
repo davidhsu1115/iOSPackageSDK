@@ -1,0 +1,245 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SQLCipher",
+        "printedName": "SQLCipher",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Cache",
+        "printedName": "Cache",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Zip",
+        "printedName": "Zip",
+        "declKind": "Import",
+        "moduleName": "iOSPackageSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogSomething",
+        "printedName": "LogSomething",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogSomething",
+                "printedName": "iOSPackageSDK.LogSomething",
+                "usr": "s:13iOSPackageSDK12LogSomethingC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13iOSPackageSDK12LogSomethingCACycfc",
+            "mangledName": "$s13iOSPackageSDK12LogSomethingCACycfc",
+            "moduleName": "iOSPackageSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "logColor",
+            "printedName": "logColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13iOSPackageSDK12LogSomethingC8logColor5colorySo7UIColorC_tF",
+            "mangledName": "$s13iOSPackageSDK12LogSomethingC8logColor5colorySo7UIColorC_tF",
+            "moduleName": "iOSPackageSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logString",
+            "printedName": "logString(string:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13iOSPackageSDK12LogSomethingC9logString6stringySS_tF",
+            "mangledName": "$s13iOSPackageSDK12LogSomethingC9logString6stringySS_tF",
+            "moduleName": "iOSPackageSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logBool",
+            "printedName": "logBool(bool:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13iOSPackageSDK12LogSomethingC7logBool4boolySS_tF",
+            "mangledName": "$s13iOSPackageSDK12LogSomethingC7logBool4boolySS_tF",
+            "moduleName": "iOSPackageSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateImage",
+            "printedName": "updateImage(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13iOSPackageSDK12LogSomethingC11updateImage3forySo11UIImageViewC_tF",
+            "mangledName": "$s13iOSPackageSDK12LogSomethingC11updateImage3forySo11UIImageViewC_tF",
+            "moduleName": "iOSPackageSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13iOSPackageSDK12LogSomethingC",
+        "mangledName": "$s13iOSPackageSDK12LogSomethingC",
+        "moduleName": "iOSPackageSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 21,
+      "value": "\"Log color: \""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 310,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 23,
+      "value": "\"Log string: \""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 19,
+      "value": "\"Log bool: \""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/davidhsu\/M800\/iOSPackageSDK\/iOSPackageSDK\/Logging.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 50,
+      "value": "\"https:\/\/demo.cx-tb.cinnox.com\/images\/welcome.png\""
+    }
+  ]
+}
